@@ -12,6 +12,28 @@ function BinarySearchTree() {
 
 }
 
+BinarySearchTree.prototype.insert = function (){
+
+}
+
+BinarySearchTree.prototype.contains= function(){
+  
+}
+
+BinarySearchTree.prototype.depthFirstForEach = function(){
+  
+}
+
+BinarySearchTree.prototype.breadthFirstForEach= function(){
+  
+}
+
+BinarySearchTree.prototype.size= function(){
+  if (!this.right&& !this.left) return 1;
+  if (!this.right&& this.left) return 1+ this.left.size()
+  if (this.right && !this.left) return 1+ this.right.size()
+  if (this)
+}
 // No modifiquen nada debajo de esta linea
 // --------------------------------
 
